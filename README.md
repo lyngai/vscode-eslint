@@ -1,5 +1,9 @@
 # VS Code ESLint extension
 
+> This is a fork of microsoft/vscode-eslint that fixes typescript-eslint parsing errors in symlink workspaces.
+> 
+> Related Issues: [#954](https://github.com/microsoft/vscode-eslint/issues/954), [#1179](https://github.com/microsoft/vscode-eslint/issues/1179)
+
 [![Build Status](https://dev.azure.com/ms/vscode-eslint/_apis/build/status/Microsoft.vscode-eslint)](https://dev.azure.com/ms/vscode-eslint/_build/latest?definitionId=18)
 
 Integrates [ESLint](http://eslint.org/) into VS Code. If you are new to ESLint check the [documentation](http://eslint.org/).
