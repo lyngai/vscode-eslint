@@ -828,6 +828,9 @@ function getFileSystemPath(uri: URI): string {
 			result = realpath;
 		}
 	}
+	if (process.platform === 'darwin' || process.platform === 'linux') {
+		result = fs.realpathSync.native(result);
+	}
 	return result;
 }
 
